@@ -18,11 +18,11 @@ def calculate_download_time():
     print(f"""
 
     =============================================================
-    ||
-    ||     File size    :  {size_gb} GB ({size_mb:.0f} MB)
+    ||                                                          ||
+    ||     File size    :  {size_gb} GB ({size_mb:.0f} MB)      ||
     ||     Speed        :  {speed_mbps} Mbps ({speed_mbs:.2f} MB/s)
-    ||     Download time:  {hours} H {minutes} m {seconds} s
-    ||
+    ||     Download time:  {hours} H {minutes} m {seconds} s    ||
+    ||                                                          ||
     ==============================================================
 """)
 calculate_download_time()
